@@ -1,0 +1,52 @@
+<?xml version='1.0' standalone='yes'?>
+<arXivSRC>
+  <file>
+    <content_md5sum>1ed0bc87e6b40f64b81295f5652f9938</content_md5sum>
+    <filename>src/arXiv_src_9909_001.tar</filename>
+    <first_item>adap-org9909001</first_item>
+    <last_item>solv-int9909028</last_item>
+    <md5sum>9d3a7f34f1ac44ad3f495201e24dac90</md5sum>
+    <num_items>2500</num_items>
+    <seq_num>1</seq_num>
+    <size>213668821</size>
+    <timestamp>2010-12-22 23:56:18</timestamp>
+    <yymm>9909</yymm>
+  </file>
+  <file>
+    <content_md5sum>4aca046629928ca62367cd65a91a9722</content_md5sum>
+    <filename>src/arXiv_src_9910_001.tar</filename>
+    <first_item>adap-org9910001</first_item>
+    <last_item>solv-int9910012</last_item>
+    <md5sum>2f3cb5f12de7f8d7051bff7d0efdf2dd</md5sum>
+    <num_items>2571</num_items>
+    <seq_num>1</seq_num>
+    <size>244741133</size>
+    <timestamp>2010-12-23 00:00:30</timestamp>
+    <yymm>9910</yymm>
+  </file>
+  <file>
+    <content_md5sum>eba14a08d08e8c356c4d1cdafef68035</content_md5sum>
+    <filename>src/arXiv_src_9911_001.tar</filename>
+    <first_item>adap-org9911001</first_item>
+    <last_item>solv-int9911009</last_item>
+    <md5sum>af128903c94a5db15b6b5bfbe472ca2f</md5sum>
+    <num_items>2517</num_items>
+    <seq_num>1</seq_num>
+    <size>221549097</size>
+    <timestamp>2010-12-23 00:05:11</timestamp>
+    <yymm>9911</yymm>
+  </file>
+  <file>
+    <content_md5sum>3f2743efd4b1351e2b1bada73b0f830d</content_md5sum>
+    <filename>src/arXiv_src_9912_001.tar</filename>
+    <first_item>adap-org9912001</first_item>
+    <last_item>solv-int9912016</last_item>
+    <md5sum>fb6b0f55935636c4d92445e1f4d47391</md5sum>
+    <num_items>2593</num_items>
+    <seq_num>1</seq_num>
+    <size>233445958</size>
+    <timestamp>2010-12-23 00:09:20</timestamp>
+    <yymm>9912</yymm>
+  </file>
+  <timestamp>Tue Apr  7 06:04:13 2020</timestamp>
+</arXivSRC>

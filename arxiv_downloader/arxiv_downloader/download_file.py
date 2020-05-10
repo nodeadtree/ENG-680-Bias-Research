@@ -8,7 +8,7 @@ def download_file(key, dlpath, s3resource):
         s3resource.meta.client.download_file(
             Bucket='arxiv',
             Key=key,
-            Filename=dlpath + "/" key.split('/')[-1],
+            Filename=dlpath + "/" + key.split('/')[-1],
             ExtraArgs={'RequestPayer': 'requester'}
         )
     except Exception as exception:

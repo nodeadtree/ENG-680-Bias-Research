@@ -10,13 +10,7 @@ def setup_credentials(path=None):
         http://briennakh.me/notes/bulk-arxiv-download
     """
     configs = configparser.ConfigParser()
-    if path is not None:
-        configs.read(path)
-    else:
-        credentials_path = getenv('AWS_CREDENTIALS')
-        print(credentials_path)
-        # configs.read('~/.aws/credentials')
-        configs.read([credentials_path])
+    configs.read([path])
     s3resource = boto3.resource(
         's3',
         aws_access_key_id=configs['default']['aws_access_key_id'],
