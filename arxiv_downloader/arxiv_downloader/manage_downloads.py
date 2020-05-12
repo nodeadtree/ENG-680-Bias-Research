@@ -1,3 +1,5 @@
+from os.path import join, abspath, split
+from glob import glob
 import xml.etree.ElementTree as ET
 
 
@@ -10,5 +12,6 @@ def parse_index(xml_file):
     return parsed_file
 
 
-def diff_files():
-    pass
+def diff_manifest(manifest, directory):
+    files = set(map(abspath, glob(join(directory, '**'), recursive=True)))
+    return (i for i in manifest.keys() if join(directory, i) not in files)
