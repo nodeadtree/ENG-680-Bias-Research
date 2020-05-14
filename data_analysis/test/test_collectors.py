@@ -11,7 +11,7 @@ _URI = getenv('DATA_ANALYSIS_TARGET')
 
 
 def test_strict_preprocessor():
-    corpus = parse_file_as_text(_URI)
+    corpus, metadata = parse_file_as_text(_URI)
     processed = strict_pre_processor(corpus)
     print(processed)
-    assert FalsE
+    assert False
