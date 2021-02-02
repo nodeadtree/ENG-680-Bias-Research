@@ -1,6 +1,6 @@
 attrs==19.3.0
 backcall==0.1.0
-bleach==3.1.5
+bleach==3.3.0
 cycler==0.10.0
 -e git+git@github.com:nodeadtree/ENG-680-Bias-Research.git@03f045f5fe336f354dd44e6dbcd7dd4fcd30c5a5#egg=data_analysis&subdirectory=data_analysis
 decorator==4.4.2
